@@ -1,0 +1,82 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <header>
+            <nav class="fixed-nav">
+                <div class="nav darkpurple ">
+                    <div class="letft">
+                        <div class="logo">
+                            <span><b class="font-bold">&lt;MG&gt;</b> PROJECTS</span>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <ul class="target">
+                            <img src="stop.svg" class="speaker" alt="">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h1>Snake-Water-Gun</h1>
+            <div class="cont">
+                <div class="comp gap ">
+                    <div class="frames">
+                        <div class="card cardone">
+                            <h2>Computer</h2>
+                            <div class="frame commonframe center">
+                                <img src="https://imgs.search.brave.com/DiKGqJ7qqoTes92bscccPbXE4IAzPNqw5yvCvpvoKRQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzM1LzEzLzE0/LzM2MF9GXzMzNTEz/MTQzNV9EckhJUWps/T0tsdTNHQ1h0cEZr/SUcxdjBjR2dNOXZK/Qy5qcGc" alt="" height="200px">
+                            </div>
+                        </div>
+                        <div class="vs">VS</div>
+                        <div class="card cardtwo">
+                            <h2>You</h2>
+                            <div class="userframe commonframe center">
+                                <img class="userframee" src="https://imgs.search.brave.com/DiKGqJ7qqoTes92bscccPbXE4IAzPNqw5yvCvpvoKRQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzM1LzEzLzE0/LzM2MF9GXzMzNTEz/MTQzNV9EckhJUWps/T0tsdTNHQ1h0cEZr/SUcxdjBjR2dNOXZK/Qy5qcGc" alt="" height="200px">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <h2>COMPUTER </h2> -->
+                    
+                </div>
+                <div class="txt">
+                    <div class="txtbox" id="txtbox">Please click on the buttons below to start the game !</div>
+                </div>
+                
+                <div class="human">
+                    <!-- <h2>USER</h2> -->
+                    
+                    <!-- <p>(Please select from the options below :-)</p> -->
+                    <div class="options">
+                        <button onclick="selectButton(0)" class="snake"><img src="snake.png" alt="snake img"></button>
+                        <button onclick="selectButton(1)" class="water"><img src="water.png" alt="water img"></button>
+                        <button onclick="selectButton(2)" class="gun"><img src="gun.png" alt="gun img"></button>
+                    </div>
+                </div>
+    
+            </div>
+
+            <div class="info">Wins : <span class="wins"></span> | Losses : <span class="looses"></span> | Draws : <span class="draws"></span></div>
+            
+            <button id="reset" onclick="resetGame()">Reset</button>
+            
+        </main>
+        <footer>
+            <div class="cc">
+                <div class="details">
+                    <span class="namee popfont"><b class="font-bold">&lt;MG&gt;</b> PROJECTS   </span>
+                    <p class="textt popfont">Copyright © <!-- -->2024<!-- --> MgProjects.com<!-- --></p>
+                </div>
+            </div>
+        </footer> 
+    </body>
+    <script src="script.js"></script>
+    </html>
